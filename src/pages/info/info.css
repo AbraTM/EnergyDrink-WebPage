@@ -1,0 +1,52 @@
+.info-page{
+    width: 100%;
+    height: fit-content;
+    margin-top: -200px;
+}
+
+.wave-2{
+    width: 100%;
+    height: 300px;
+    background-image: url(./wave-2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -600px;
+}
+
+.info{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+    background-image: url('./blob-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.now-available{
+    position: absolute;
+    rotate: -20deg;
+    top: 10px;
+    left: 50px;
+    width: 700px;
+    scale: 0.9;
+    animation: 1s nowAvail infinite ;
+}
+
+.stores{
+    width: 800px;
+    position: absolute;
+    top: 275px;
+    left: 400px;
+}
+
+@keyframes nowAvail{
+   50%{
+    scale: 1;
+   }
+
+   100%{
+    scale: 0.9;
+   }
+}

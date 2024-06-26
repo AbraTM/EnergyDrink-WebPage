@@ -1,0 +1,35 @@
+.flavours-page{
+    margin-top: 70px;
+    background-image: url(./bg-pattern.png);
+    backdrop-filter: blur();
+    padding-bottom: 400px;
+}
+
+.flavours-text{ 
+    width: fit-content;
+    animation: scaleup 2.5s forwards;
+    animation-timeline: view();
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.flavours-text img{
+    border-radius: 30px;
+    width: 800px;
+}
+
+.flavours-cn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+@keyframes scaleup{
+    0%{
+        transform: scale(0.3);
+    }
+    70%{
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Work sans";
+}
+
+@font-face {
+    font-family: 'The Farmer Textured';
+    src: url('TheFarmerTexturedRegular.eot');
+    src: local('The Farmer Textured'), local('TheFarmerTexturedRegular'),
+        url('./assets/fonts/TheFarmerTexturedRegular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/TheFarmerTexturedRegular.woff2') format('woff2'),
+        url('./assets/fonts/TheFarmerTexturedRegular.woff') format('woff'),
+        url('./assets/fonts/TheFarmerTexturedRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

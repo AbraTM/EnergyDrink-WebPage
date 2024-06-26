@@ -1,0 +1,88 @@
+.falvour-cards-cn{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 80px;
+    row-gap: 150px;
+}
+
+.flavour-card{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    box-shadow: 0px 0px 40px 2px rgb(39, 39, 39);
+    transition: 200ms ease-in-out;
+}
+
+.flavour-card:hover{
+    transform: scale(1.01);
+}
+
+
+.flavour-img{
+    width: 400px;
+    height: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 10px;
+    animation: extendImg 5s;
+    animation-timeline: view();
+}
+
+.desc{
+    font-family: "the farmer textured";
+    font-size: 45px;
+}
+
+.desc h1{
+    margin: 20px 25px 0px 25px;
+}
+
+.desc p{
+    margin: 25px;
+    font-size: 40px;
+}
+
+.classic{
+    background-image: url(./Energy.png);
+    background-position: 10%;
+}
+
+.orange{
+    background-image: url(orange.jpg);
+}
+
+.watermelon{
+    background-image: url(./watermelon.jpg);
+}
+
+.lemon{
+    background-image: url(./lemon.jpg);
+}
+
+.cranberry{
+    background-image: url(./cranberry.jpg);
+}
+
+@keyframes cardAnimation{
+    0%{
+        opacity: 0.6;
+    }
+
+    80%{
+        opacity: 1;
+    }
+}
+
+@keyframes extendImg{
+    0%{
+        width: 0px;
+    }
+
+    40%{
+        width: 400px;
+    }
+}
